@@ -1,0 +1,1621 @@
+/* 全局样式开始 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    /* overflow-x: hidden; */
+    /* opacity: 0; */
+}
+
+body {
+    text-align: center;
+    background-image: url('../img/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+a {
+    color: rgb(6, 122, 230);
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+/* 全局样式结束 */
+
+.l-wrapper>img {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+/* 头部样式开始 */
+header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    padding: 17px 0px 13px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 100;
+}
+
+header h1 {
+    width: 200px;
+    line-height: 100%;
+    height: 50px;
+    text-align: center;
+    float: left;
+}
+
+
+header .header-center {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+}
+
+header .header-center>div {
+    position: absolute;
+    left: 250px;
+    right: 100px;
+    text-align: center;
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+header .header-center .guide {
+    width: 1000px;
+    height: 50px;
+    display: inline;
+}
+
+header .header-center .guide li {
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(6, 122, 230);
+    margin-left: 14px;
+    float: left;
+    display: inline;
+}
+
+/* 头部样式结束 */
+
+
+/* 顶部的图片样式开始 */
+.main-photos {
+    width: 100%;
+    height: 100%;
+    min-width: 1400px;
+    min-height: 704px;
+    position: relative;
+    top: 0;
+    background-color: #fff;
+
+}
+
+.main-photos h2 {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    left: 100px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.main-title {
+    width: 35%;
+}
+
+.main-Picture {
+    width: 100%;
+    height: 100%;
+    min-width: 1138px;
+    min-height: 644px;
+}
+
+
+.main-date {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    z-index: 50;
+}
+
+.main-copy {
+    position: absolute;
+    height: 80%;
+    right: -10px;
+    top: 70px;
+    z-index: 50;
+}
+
+.bnn_comment {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 140px;
+    z-index: 50;
+    float: left;
+}
+
+.bnn_line02 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 300px;
+    z-index: 50;
+    float: left;
+}
+
+.bnn_relation {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 460px;
+    z-index: 50;
+    float: left;
+}
+
+div.main-photo a>img {
+    cursor: pointer;
+}
+
+/* 顶部的图片样式结束 */
+
+/* 公告部分样式开始 */
+.section-news {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 191px;
+    background-color: #fff;
+
+}
+
+.top-newsAndTw {
+    text-align: center;
+    margin: 0 auto;
+    width: 1150px;
+    height: 191px;
+}
+
+.top-newsAndTw .news {
+    margin: 0 10px;
+    padding: 0 0 20px 0;
+    width: 559px;
+    float: left;
+    height: 151px;
+    display: block;
+}
+
+.top-newsAndTw .news a {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    display: block;
+    float: left;
+    border-bottom: 1px solid #094C9E;
+    zoom: 1;
+}
+
+.top-newsAndTw .news span.date {
+    font-family: "Crimson Text", serif;
+    display: block;
+    width: 80px;
+    float: left;
+    margin: 0 0 0 20px;
+    letter-spacing: 0.1em;
+}
+
+.top-newsAndTw .news span.text {
+    display: block;
+    float: right;
+    width: 400px;
+    padding: 0 0 0 30px;
+}
+
+.top-newsAndTw .news .bottom-rightX {
+    width: 50%;
+    float: right;
+    border: 0px;
+}
+
+.top-newsAndTw .news .bottom-right {
+    width: 50%;
+    float: right;
+    border: 0px;
+}
+
+.top-newsAndTw .Tw {
+    margin: 0 10px;
+    padding: 0 0 20px 0;
+    width: 500px;
+    position: relative;
+    float: right;
+    height: 151px;
+}
+
+.top-newsAndTw .Tw p {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* 公告部分样式结束 */
+
+/* 联动广告部分样式开始 */
+.section-banner {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 100%;
+    height: 191px;
+
+    background-color: #fff;
+
+}
+
+.top-banner {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 1400px;
+    height: 191px;
+}
+
+.top-banner .banner {
+    text-align: center;
+    margin: 0 auto;
+    width: 1150px;
+    height: 100px;
+}
+
+.top-banner .banner li img {
+    width: 220px;
+    height: 50px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* 联动广告部分样式结束 */
+
+/* 介绍部分样式开始 */
+.section-intro {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    z-index: -1;
+}
+
+.intro-img {
+    position: absolute;
+    margin: 0 auto;
+    width: 1020px;
+    height: 1340px;
+    float: left;
+    text-align: center;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+}
+
+.intro-detail {
+    width: 1020px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    z-index: 1;
+    padding: 150px 0 170px 0;
+}
+
+h2.intro-h2-headline {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h3.intro-copies {
+    margin-bottom: 100px;
+}
+
+span.intro-span-copy01 {
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+img.intro-vsl {
+    width: 100%;
+    min-width: 1400px;
+    min-height: 1650px;
+    position: relative;
+    z-index: -1;
+}
+
+.intro-detail p.intro-detail-text {
+    text-align: left;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 2.1em;
+    margin: 0 0 80px 0;
+    letter-spacing: 0.05em;
+    margin-bottom: 100px;
+}
+
+.intro-detail p.intro-detail-undead {
+    color: #ffffff;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+/* 介绍部分样式结束 */
+
+/* 电影部分样式开始 */
+.section-movie {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 1690px;
+    background-color: #fff;
+    float: left;
+    position: relative;
+}
+
+.movie-main {
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px 0;
+    position: absolute;
+    left: 20px;
+    right: 50px;
+}
+
+.movie-headline {
+    width: 900px;
+    text-align: center;
+    margin: 0 auto 80px;
+}
+
+
+.movie-youtube {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgb(146, 145, 145);
+    margin-bottom: 100px;
+}
+
+.movie-youtube-jokes {
+    font-size: 25px;
+    line-height: 2.1em;
+    margin: 0 0 80px 0;
+    letter-spacing: 0.05em;
+    margin-bottom: 100px;
+    line-height: 500px;
+}
+
+.movie-notice {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.movie-notice ul {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.movie-notice ul li {
+    margin: 0 15px 20px 15px;
+    display: inline-block;
+    height: 50px;
+    border: 1.5px solid rgb(9, 76, 158);
+    border-radius: 5px;
+}
+
+.movie-notice ul li a {
+    line-height: 50px;
+    padding: 8px 25px;
+    font-weight: bold;
+
+}
+
+/* 电影部分样式结束 */
+
+/* 故事部分样式开始 */
+.section-story {
+    width: 100%;
+    height: 1347px;
+    float: left;
+}
+
+.story-main {
+    width: 1532px;
+    height: 1339px;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+.story-picture {
+    /* float: left; */
+    overflow: hidden;
+}
+
+.story-picture p {
+    width: 2390px;
+    height: 1339px;
+    text-align: left;
+    background-image: url('../img/story/story_scene.jpg');
+    background-position: right 0;
+    background-repeat: no-repeat;
+}
+
+.story-picture p img {
+    /* float: left; */
+    overflow: hidden;
+}
+
+.story-details {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #094C9E;
+    width: 780px;
+    height: 1339px;
+    padding: 100px 0;
+    float: right;
+
+}
+
+.story-headline {
+    margin-bottom: 50px;
+}
+
+.story-textBigger {
+    margin: 50px 0;
+}
+
+/* 故事部分样式结束 */
+
+/* 制作人员部分样式开始 */
+.section-staff {
+    width: 100%;
+    height: 3400px;
+    float: left;
+}
+
+.staff-main {
+    width: 100%;
+    height: 1347px;
+    padding: 200px 0;
+}
+
+.staff-main-headLine {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.staff-Detail ul {
+    margin: 0 auto;
+    width: 900px;
+    padding-top: 30px;
+}
+
+.staff-Detail ul li {
+    margin: 0 15px 20px 15px;
+    display: inline-block;
+    height: 30px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.staff-Detail ul li a {
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 4px 25px;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+}
+
+.staff-Detail p {
+    margin: 0 auto;
+    width: 700px;
+    padding-top: 50px;
+    text-align: justify;
+    color: #ffffff;
+    line-height: 2em;
+    font-size: 15px;
+}
+
+.staff-Detail h3 {
+    margin: 0 auto;
+    padding-top: 30px;
+    ;
+    width: 1100px;
+}
+
+.staff-Detail h3 span.staff-Detail-XX-name-1 {
+    color: #fff;
+    margin: 0 10px;
+    line-height: 40px;
+    vertical-align: top;
+    letter-spacing: 0.05em;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.staff-Detail h3 span.staff-Detail-XX-name-2 {
+    color: #fff;
+    margin: 0 20px;
+    line-height: 40px;
+    vertical-align: top;
+    letter-spacing: 0.05em;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+.staff-Detail-cheng {
+    width: 1100px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.staff-Detail-an {
+    width: 1100px;
+    height: 550px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.staff-Detail-tian {
+    width: 1100px;
+    height: 550px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.staff-Detail-RADWIMPS {
+    width: 1100px;
+    height: 550px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.staff-Detail-music {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.staff-Detail-music .music-jacket {
+    width: 800px;
+    margin: 0;
+    height: 400px;
+    float: left;
+    display: block;
+}
+
+.staff-Detail-music .music-jacket .staff-music-headLine {
+    width: 700px;
+    margin: 0;
+    display: block;
+}
+
+.staff-Detail-music .staff-music-headLine {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.staff-Detail-music .music-jacket h6 {
+    display: inline-block;
+    color: #094C9E;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 2px 8px;
+    margin-bottom: 10px;
+}
+
+.staff-Detail-music .music-jacket p {
+    width: 400px;
+    padding: 0;
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.staff-Detail-music .music-jacket-limited {
+    width: 400px;
+    height: 327px;
+    text-align: left;
+    float: left;
+}
+
+.staff-Detail-music .music-jacket-normal {
+    width: 400px;
+    height: 327px;
+    text-align: left;
+    float: left;
+}
+
+.staff-Detail-music .music-track {
+    width: 200px;
+    height: 400px;
+    float: right;
+}
+
+.staff-Detail-music .music-track h4 {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.staff-Detail-music .music-track ul {
+    width: 210px;
+    padding: 0;
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.staff-Detail-music .music-track ul li {
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* 制作人员部分样式结束 */
+
+
+/* 人物部分样式开始 */
+.section-character {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+
+}
+
+.section-character .character-background {
+    width: 1200px;
+    height: 3300px;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: #fff;
+
+}
+
+.section-character>div {
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.section-character .chara-headline {
+    width: 1100px;
+    margin: 0 auto;
+    float: left;
+    margin-bottom: 200px;
+    background-color: #fff;
+
+}
+
+
+.first-character {
+    height: 950px;
+    float: left;
+}
+
+.first-character>div {
+    width: 510px;
+    height: 800px;
+    float: left;
+}
+
+.first-character .chara-l-vsl {
+    position: absolute;
+    top: -150px;
+    left: 380px;
+    width: 159px;
+    height: 536px;
+    float: right;
+
+}
+
+.first-character h3 {
+    width: 340px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.first-character p {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    color: #094C9E;
+    line-height: 2em;
+    height: 210px;
+    font-size: 15px;
+    width: 340px;
+    display: block;
+
+}
+
+.first-character ul {
+    width: 340px;
+
+    text-align: right;
+}
+
+.first-character ul>li {
+    letter-spacing: normal;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* 男女主角左半部分 */
+
+
+.first-character .chara-l-top {
+    float: left;
+    width: 340px;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.first-character .chara-l-bottom {
+    float: left;
+    width: 510px;
+    height: 360px;
+}
+
+.first-character .chara-l-bottom .btn {
+    width: 135px;
+    line-height: 100px;
+    text-align: center;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.first-character .chara-l-bottom .btn img {
+    margin: 30px 0;
+}
+
+.first-character .chara-l-bottom h4 {
+    width: 225px;
+    line-height: 50px;
+    text-align: center;
+    height: 100px;
+    float: left;
+    margin: 25px 0;
+    margin-right: 30px;
+}
+
+.first-character .chara-l-bottom .ph {
+    width: 100px;
+    height: 100px;
+    float: left;
+
+}
+
+.first-character .chara-l-bottom .text {
+    font-size: 13px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+    width: 510px;
+}
+
+/* 男女主角右半部分 */
+
+.first-character .chara-r {
+    margin-left: 50px;
+}
+
+.first-character .chara-r-top {
+    float: right;
+    width: 340px;
+    position: relative;
+    margin-left: 180px;
+    margin-bottom: 80px;
+}
+
+
+.first-character .chara-r-vsl {
+    position: absolute;
+    top: -90px;
+    left: -200px;
+    width: 190px;
+    height: 481px;
+    float: right;
+}
+
+.first-character .chara-r-bottom {
+    float: left;
+    width: 510px;
+    height: 360px;
+}
+
+.first-character .chara-r-bottom .btn {
+    width: 135px;
+    line-height: 100px;
+    text-align: center;
+    height: 100px;
+    float: right;
+    margin-left: 20px;
+}
+
+.first-character .chara-r-bottom .btn img {
+    margin: 30px 0;
+}
+
+.first-character .chara-r-bottom h4 {
+    width: 225px;
+    line-height: 50px;
+    text-align: center;
+    height: 100px;
+    float: right;
+    margin: 25px 0;
+    margin-left: 30px;
+}
+
+.first-character .chara-r-bottom .ph {
+    width: 100px;
+    height: 100px;
+    float: right;
+
+}
+
+.first-character .chara-r-bottom .text {
+    font-size: 13px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: right;
+    width: 510px;
+}
+
+
+.second-character {
+    width: 1060px;
+    margin: 0 0 80px;
+    float: left;
+}
+
+.second-character>div {
+    width: 510px;
+    height: 730px;
+    float: left;
+
+}
+
+.second-character .chara-l-top {
+    width: 510px;
+    height: 400px;
+    float: left;
+    text-align: left;
+    position: relative;
+}
+
+.second-character .chara-l-top h4 {
+    margin: 0 0 20px 180px;
+
+}
+
+.second-character .chara-l-top p {
+    margin: 0 0 0 180px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    color: #094C9E;
+    line-height: 2em;
+    font-size: 15px;
+
+}
+
+.second-character .chara-l-top .ss {
+    margin: 50px auto 0 auto;
+    height: 138px;
+}
+
+.second-character .chara-l-top .ss li {
+    display: block;
+    float: left;
+}
+
+.second-character .chara-l-top .ss .second {
+    display: block;
+    float: right;
+}
+
+.second-character .chara-l-top .face {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-character .chara-l-bottom {
+    width: 510px;
+    height: 330px;
+    float: left;
+}
+
+.second-character .chara-l-bottom h4 {
+    width: 510px;
+    height: 100px;
+    text-align: left;
+    float: left;
+    margin: 0 0 10px;
+}
+
+.second-character .chara-l-bottom h4 .ph {
+    margin: 15px 20px;
+}
+
+.second-character .chara-l-bottom p {
+    font-size: 13px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+
+
+.second-character .chara-r {
+    margin: 0 0 0 40px;
+}
+
+.second-character .chara-r-top {
+    width: 510px;
+    height: 400px;
+    float: left;
+    position: relative;
+}
+
+.second-character .chara-r-top h4 {
+    margin: 0 0 20px 180px;
+
+}
+
+.second-character .chara-r-top p {
+    margin: 0 0 0 180px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    color: #094C9E;
+    line-height: 2em;
+    font-size: 15px;
+
+
+}
+
+.second-character .chara-r-top .ss {
+    margin: 20px auto 0 auto;
+    height: 138px;
+
+}
+
+.second-character .chara-r-top .ss li {
+    display: block;
+    float: left;
+}
+
+.second-character .chara-r-top .ss .second {
+    display: block;
+    float: right;
+}
+
+.second-character .chara-r-top .face {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-character .chara-r-bottom {
+    width: 510px;
+    height: 330px;
+    float: left;
+}
+
+.second-character .chara-r-bottom h4 {
+    width: 510px;
+    height: 100px;
+    text-align: left;
+    float: left;
+    margin: 0 0 10px;
+}
+
+.second-character .chara-r-bottom h4 .ph {
+    margin: 15px 20px;
+}
+
+.second-character .chara-r-bottom p {
+    height: 200px;
+    font-size: 13px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+
+
+.third-character {
+    width: 1060px;
+    float: left;
+}
+
+.third-character>div {
+    width: 1060px;
+    height: 160px;
+    margin: 0 0 60px;
+}
+
+.third-character .teshigawara {
+    width: 1060px;
+    text-align: left;
+    height: 160px;
+    float: left;
+    margin: 0 0 50px 0;
+}
+
+.third-character .teshigawara .chara-l {
+    width: 460px;
+    height: 160px;
+    float: left;
+}
+
+.third-character .teshigawara .chara-l .ph {
+    width: 210px;
+    height: 160px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .teshigawara .chara-l h4 {
+    width: 225px;
+    height: 59px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .teshigawara .chara-l .text {
+    width: 225px;
+    height: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 13px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+.third-character .teshigawara .chara-r {
+    width: 530px;
+    height: 160px;
+    float: right;
+}
+
+.third-character .teshigawara .chara-r .ph {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .teshigawara .chara-r h4 {
+    width: 409px;
+    height: 40px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .teshigawara .chara-r .text {
+    width: 409px;
+    height: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 12px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+.third-character .natori {
+    width: 1060px;
+    text-align: left;
+    height: 160px;
+    float: left;
+    margin: 0 0 50px 0;
+}
+
+.third-character .natori .chara-l {
+    width: 460px;
+    height: 160px;
+    float: left;
+}
+
+.third-character .natori .chara-l .ph {
+    width: 210px;
+    height: 160px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .natori .chara-l h4 {
+    width: 225px;
+    height: 59px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .natori .chara-l .text {
+    width: 225px;
+    height: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 13px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+.third-character .natori .chara-r {
+    width: 530px;
+    height: 160px;
+    float: right;
+}
+
+.third-character .natori .chara-r .ph {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .natori .chara-r h4 {
+    width: 409px;
+    height: 40px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .natori .chara-r .text {
+    width: 409px;
+    height: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 12px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+.third-character .fujii {
+    width: 1060px;
+    text-align: left;
+    height: 160px;
+    float: left;
+    margin: 0 0 50px 0;
+}
+
+.third-character .fujii .chara-l {
+    width: 460px;
+    height: 160px;
+    float: left;
+}
+
+.third-character .fujii .chara-l .ph {
+    width: 210px;
+    height: 160px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .fujii .chara-l h4 {
+    width: 225px;
+    height: 59px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .fujii .chara-l .text {
+    width: 225px;
+    height: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 13px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+.third-character .fujii .chara-r {
+    width: 530px;
+    height: 160px;
+    float: right;
+}
+
+.third-character .fujii .chara-r .ph {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .fujii .chara-r h4 {
+    width: 409px;
+    height: 40px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .fujii .chara-r .text {
+    width: 409px;
+    height: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 12px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+
+.third-character .takagi {
+    width: 1060px;
+    text-align: left;
+    height: 160px;
+    float: left;
+    margin: 0 0 50px 0;
+}
+
+.third-character .takagi .chara-l {
+    width: 460px;
+    height: 160px;
+    float: left;
+}
+
+.third-character .takagi .chara-l .ph {
+    width: 210px;
+    height: 160px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .takagi .chara-l h4 {
+    width: 225px;
+    height: 59px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .takagi .chara-l .text {
+    width: 225px;
+    height: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 13px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+.third-character .takagi .chara-r {
+    width: 530px;
+    height: 160px;
+    float: right;
+}
+
+.third-character .takagi .chara-r .ph {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .takagi .chara-r h4 {
+    width: 409px;
+    height: 40px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .takagi .chara-r .text {
+    width: 409px;
+    height: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 12px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+.third-character .yotsuha {
+    width: 1060px;
+    text-align: left;
+    height: 160px;
+    float: left;
+    margin: 0 0 50px 0;
+}
+
+.third-character .yotsuha .chara-l {
+    width: 460px;
+    height: 160px;
+    float: left;
+}
+
+.third-character .yotsuha .chara-l .ph {
+    width: 210px;
+    height: 160px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .yotsuha .chara-l h4 {
+    width: 225px;
+    height: 59px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .yotsuha .chara-l .text {
+    width: 225px;
+    height: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 13px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+.third-character .yotsuha .chara-r {
+    width: 530px;
+    height: 160px;
+    float: right;
+}
+
+.third-character .yotsuha .chara-r .ph {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .yotsuha .chara-r h4 {
+    width: 409px;
+    height: 40px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.third-character .yotsuha .chara-r .text {
+    width: 409px;
+    height: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 12px;
+    line-height: 2em;
+    color: #094C9E;
+    text-align: justify;
+    float: left;
+}
+
+/* 人物部分样式结束 */
+
+
+/* 周边部分样式开始 */
+.section-products {
+    width: 100%;
+    height: 1700px;
+    float: left;
+}
+
+.section-products .products-background {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.section-products .products-headline {
+    width: 100%;
+    margin: 0 0 80px 0;
+}
+
+.products-novel {
+    width: 540px;
+    height: 285px;
+    margin: 0 auto 45px;
+}
+
+.products-novel .ph {
+    margin: 0 40px 0 0;
+    float: left;
+}
+
+.products-novel .text p {
+    font-size: 13px;
+    color: #fff;
+    text-align: left;
+    line-height: 2em;
+}
+
+.products-novel .text p a {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: #fff;
+    text-align: left;
+    line-height: 2em;
+}
+
+.products-novel .text h4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    color: #fff;
+    text-align: left;
+    line-height: 1.4em;
+}
+
+.products-main .products-blocks {
+    width: 1180px;
+    height: 300px;
+    margin: 0 auto 30px auto;
+}
+
+.products-main .products-blocks .box {
+    width: 580px;
+    height: 240px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.products-main .ph {
+    margin: 0 40px 0 0;
+    float: left;
+}
+
+.products-main .text p {
+    font-size: 13px;
+    color: #fff;
+    text-align: left;
+    line-height: 2em;
+}
+
+.products-main .text p a {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: #fff;
+    text-align: left;
+    line-height: 2em;
+}
+
+.products-main .text h4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    color: #fff;
+    text-align: left;
+    line-height: 1.4em;
+}
+
+/* 周边部分样式结束 */
+
+/* 鸣谢部分样式开始 */
+.section-billing {
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+
+.section-billing .billing-background {
+    width: 100%;
+    height: 500px;
+    background-color: #094C9E;
+    float: left;
+}
+
+.section-billing .billing-main {
+    margin: 80px 0 0 0;
+}
+
+.section-billing .billing-main p {
+    margin: 0 0 30px 0;
+}
+
+
+/* 鸣谢部分样式结束 */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #094C9E;
+    float: left;
+    text-align: left;
+}
+
+.footer-ul {
+    text-align: left;
+    margin: 0 0 50px 50px;
+    display: inline-block;
+}
+
+.footer-ul .li-first {
+    margin: 0 0 0 80px;
+}
+
+.footer-ul li {
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    margin: 0 0 0 50px;
+    float: left;
+    display: block;
+
+}
+
+.footer-ul li a {
+    border-radius: 100px;
+    border: 1px solid #fff;
+    display: block;
+
+}
+
+.footer-ul li a img {
+    width: 15px;
+    height: 15px;
+    margin: 10px 0 10px 0;
+    position: relative;
+    top: 2px;
+    right: 1px;
+}
