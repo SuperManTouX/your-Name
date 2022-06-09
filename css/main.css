@@ -8,17 +8,16 @@
 }
 
 html {
-    width: 100%;
-    /* overflow-x: hidden; */
-    /* opacity: 0; */
+    width: 100vw;
+    background-image: url('../img/background1.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 body {
     text-align: center;
-    background-image: url('../img/background1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 
 }
 
@@ -30,6 +29,10 @@ a:hover {
     opacity: 0.5;
 }
 
+#p-top section {
+    width: 100vw;
+    margin: 0 auto;
+}
 /* 全局样式结束 */
 
 .l-wrapper>img {
@@ -41,7 +44,7 @@ a:hover {
 
 /* 头部样式开始 */
 header {
-    width: 100%;
+    width: 100vw;
     height: 80px;
     line-height: 80px;
     padding: 17px 0px 13px;
@@ -61,8 +64,8 @@ header h1 {
 
 
 header .header-center {
-    text-align: center;
-    width: 100%;
+    /* text-align: center; */
+    width: 100rem;
     height: 50px;
     position: relative;
     margin: 0 auto;
@@ -188,7 +191,7 @@ div.main-photo a>img {
 .section-news {
     text-align: center;
     margin: 0 auto;
-    width: 100%;
+    width: 100rem;
     height: 191px;
     background-color: #fff;
 
@@ -197,8 +200,8 @@ div.main-photo a>img {
 .top-newsAndTw {
     text-align: center;
     margin: 0 auto;
-    width: 1150px;
-    height: 191px;
+    width: 100%px;
+    /* height: 191px; */
 }
 
 .top-newsAndTw .news {
@@ -387,7 +390,6 @@ img.intro-vsl {
     width: 100%;
     height: 1690px;
     background-color: #fff;
-    float: left;
     position: relative;
 }
 
@@ -395,9 +397,7 @@ img.intro-vsl {
     margin: 0 auto;
     width: 100%;
     padding: 100px 0;
-    position: absolute;
-    left: 20px;
-    right: 50px;
+
 }
 
 .movie-headline {
@@ -426,7 +426,6 @@ img.intro-vsl {
 
 .movie-notice {
     margin: 0 auto;
-    width: 900px;
 }
 
 .movie-notice ul {
@@ -455,19 +454,16 @@ img.intro-vsl {
 .section-story {
     width: 100%;
     height: 1347px;
-    float: left;
 }
 
 .story-main {
-    width: 1532px;
     height: 1339px;
-
     margin: 0 auto;
     position: relative;
 }
 
 .story-picture {
-    /* float: left; */
+
     overflow: hidden;
 }
 
@@ -481,7 +477,6 @@ img.intro-vsl {
 }
 
 .story-picture p img {
-    /* float: left; */
     overflow: hidden;
 }
 
@@ -494,7 +489,7 @@ img.intro-vsl {
     width: 780px;
     height: 1339px;
     padding: 100px 0;
-    float: right;
+
 
 }
 
@@ -512,7 +507,7 @@ img.intro-vsl {
 .section-staff {
     width: 100%;
     height: 3400px;
-    float: left;
+
 }
 
 .staff-main {
@@ -712,7 +707,6 @@ img.intro-vsl {
 /* 人物部分样式开始 */
 .section-character {
     width: 100%;
-    float: left;
     background-color: #fff;
 
 }
@@ -1459,7 +1453,6 @@ img.intro-vsl {
 .section-products {
     width: 100%;
     height: 1700px;
-    float: left;
 }
 
 .section-products .products-background {
@@ -1555,7 +1548,6 @@ img.intro-vsl {
 .section-billing {
     width: 100%;
     height: 500px;
-    float: left;
 }
 
 .section-billing .billing-background {
@@ -1577,7 +1569,7 @@ img.intro-vsl {
 /* 鸣谢部分样式结束 */
 
 footer {
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background-color: #094C9E;
     float: left;
