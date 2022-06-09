@@ -4,14 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>your-name</title>
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/jQuey.min.js"></script>
+    <script src="./js/jQuey.min.js"></script>
+    <script src="./js/jquery.smoove.min.js"></script>
     <script src="./js/anime.min.js"></script>
-    <script src="js/index.js"></script>
-    <script src="js/jQuey.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
 
 </head>
 
@@ -209,7 +207,6 @@
 
         <!-- 故事部分 开始 -->
         <section class="section-story">
-
             <div class="story-main">
                 <div class="story-picture">
                     <p class="story_img">
@@ -678,7 +675,6 @@
 <!-- 尾部 结束 -->
 <script>
     let story_img = document.querySelector('.story-picture p img')
-    console.log(story_img.clientWidth);
     xTrans = [];
     anime.set('.story_img', {
         translateX: function (el, i, l) {
@@ -704,5 +700,7 @@
         }
     })
 </script>
+<script src="./js/index.js"></script>
+
 
 </html>
